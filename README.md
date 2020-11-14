@@ -72,5 +72,5 @@ npm i tailwindcss autoprefixer postcss-cli
  ```
  npx tailwindcss init tailwind.config.full.js --full
 ```
- 
+    
 
