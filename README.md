@@ -1,5 +1,9 @@
 # Curso de tailwind
 
+# Aprendiendo Tailwind y haciendo un clon de Spotify
+
+![img](https://github.com/solisjoaquin/tailwindcss/blob/main/public/images/screen.png)
+
 ## iniciar proyecto
 
 npm init -y
