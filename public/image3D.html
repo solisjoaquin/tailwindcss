@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .td-figure {
+            perspective: 1500px;
+
+        }
+
+        .td-figure img {
+            transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+            border-radius: 0.25em;
+            box-shadow: 2px 10px 30px hsla(0, 0%, 0%, 0.25);
+            transition: .3s;
+        }
+
+        img:hover {
+            transform: rotate(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <figure class="td-figure">
+            <img class=""
+                src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                alt="" height="250" width="350">
+        </figure>
+    </div>
+
+</body>
+
+</html>
