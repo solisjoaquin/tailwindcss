@@ -6,13 +6,15 @@ module.exports = {
   purge: [],
 
   theme: {
+    colors: {
+      spotify: '#121212'
+    },
     fontFamily: {
       display: ['Gilroy', 'sans-serif'],
       body: ['Graphik', 'sans-serif'],
     },
     extend: {
       colors: {
-        'primary': '#f3c614',
         'secondary': '#353535'
       }
     },
